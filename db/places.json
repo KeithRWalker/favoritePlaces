@@ -2,103 +2,103 @@
     "places": [
         {
             "id": "place1",
-            "placeName": "place 1",
-            "placeState": "state 1",
-            "placeImage": "http://img.dummy-image-generator.com/maps/dummy-400x400-ModisMap.jpg",
-            "favRestraunt": "Restraunt 1",
-            "favBar": "Bar 1",
-            "favHotel": "Hotel 1",
-            "favAttr": "Attraction 1"
+            "placeName": "Chicago",
+            "placeState": "IL",
+            "placeImage": "../imgs/chicago.jpg",
+            "favRestraunt": "Giordano's",
+            "favBar": "Reggie's",
+            "favHotel": "The Murder Hotel",
+            "favAttr": "Navy Pier"
         },
         {
             "id": "place2",
-            "placeName": "place 2",
-            "placeState": "state 2",
-            "placeImage": "http://img.dummy-image-generator.com/maps/dummy-400x400-ModisMap.jpg",
-            "favRestraunt": "Restraunt 2",
-            "favBar": "Bar 2",
-            "favHotel": "Hotel 2",
-            "favAttr": "Attraction 2"
+            "placeName": "Seattle",
+            "placeState": "WA",
+            "placeImage": "../imgs/seattle.jpg",
+            "favRestraunt": "Dumpling Tzar",
+            "favBar": "Barboza",
+            "favHotel": "Motel 6",
+            "favAttr": "Cal Anderson Park"
         },
         {
             "id": "place3",
-            "placeName": "place 3",
-            "placeState": "state 3",
-            "placeImage": "http://img.dummy-image-generator.com/maps/dummy-400x400-ModisMap.jpg",
-            "favRestraunt": "Restraunt 3",
-            "favBar": "Bar 3",
-            "favHotel": "Hotel 3",
-            "favAttr": "Attraction 3"
+            "placeName": "Mt Shasta",
+            "placeState": "CA",
+            "placeImage": "../imgs/shasta.jpg",
+            "favRestraunt": "Black Bear Diner",
+            "favBar": "The Liquor Store",
+            "favHotel": "The Woods",
+            "favAttr": "Mt Shasta City Park"
         },
         {
             "id": "place4",
-            "placeName": "place 4",
-            "placeState": "state 4",
-            "placeImage": "http://img.dummy-image-generator.com/maps/dummy-400x400-ModisMap.jpg",
-            "favRestraunt": "Restraunt 4",
-            "favBar": "Bar 4",
-            "favHotel": "Hotel 4",
-            "favAttr": "Attraction 4"
+            "placeName": "Durango",
+            "placeState": "CO",
+            "placeImage": "../imgs/durango.jpg",
+            "favRestraunt": "Animas Brewing Company",
+            "favBar": "Animas Brewing Company",
+            "favHotel": "Eddie's House",
+            "favAttr": "Snowboarding"
         },
         {
             "id": "place5",
-            "placeName": "place 5",
-            "placeState": "state 5",
-            "placeImage": "http://img.dummy-image-generator.com/maps/dummy-400x400-ModisMap.jpg",
-            "favRestraunt": "Restraunt 5",
-            "favBar": "Bar 5",
-            "favHotel": "Hotel 5",
-            "favAttr": "Attraction 5"
+            "placeName": "Bend",
+            "placeState": "OR" ,
+            "placeImage": "../imgs/bend.jpg",
+            "favRestraunt": "Packed Lunch",
+            "favBar": "Liquor Store",
+            "favHotel": "The Woods",
+            "favAttr": "Snowboarding"
         },
         {
             "id": "place6",
-            "placeName": "place 6",
-            "placeState": "state 6",
-            "placeImage": "http://img.dummy-image-generator.com/maps/dummy-400x400-ModisMap.jpg",
-            "favRestraunt": "Restraunt 6",
-            "favBar": "Bar 6",
-            "favHotel": "Hotel 6",
-            "favAttr": "Attraction 6"
+            "placeName": "Index",
+            "placeState": "WA",
+            "placeImage": "../imgs/index.jpg",
+            "favRestraunt": "Sky Deli & Pizza",
+            "favBar": "Liquor Store",
+            "favHotel": "Tad's House",
+            "favAttr": "Snowboarding"
         },
         {
             "id": "place7",
-            "placeName": "place 7",
-            "placeState": "state 7",
-            "placeImage": "http://img.dummy-image-generator.com/maps/dummy-400x400-ModisMap.jpg",
-            "favRestraunt": "Restraunt 7",
-            "favBar": "Bar 7",
-            "favHotel": "Hotel 7",
-            "favAttr": "Attraction 7"
+            "placeName": "Mt Hood",
+            "placeState": "OR",
+            "placeImage": "../imgs/hood.jpg",
+            "favRestraunt": "Packed Lunch",
+            "favBar": "Liquor Store",
+            "favHotel": "The Woods",
+            "favAttr": "Snowboarding"
         },
         {
             "id": "place8",
-            "placeName": "place 8",
-            "placeState": "state 8",
-            "placeImage": "http://img.dummy-image-generator.com/maps/dummy-400x400-ModisMap.jpg",
-            "favRestraunt": "Restraunt 8",
-            "favBar": "Bar 8",
-            "favHotel": "Hotel 8",
-            "favAttr": "Attraction 8"
+            "placeName": "Mt Baker",
+            "placeState": "WA",
+            "placeImage": "../imgs/baker.jpg",
+            "favRestraunt": "Packed Lunch",
+            "favBar": "Lquor Store",
+            "favHotel": "The Woods",
+            "favAttr": "Snowboarding"
         },
         {
             "id": "place9",
-            "placeName": "place 9",
-            "placeState": "state 9",
-            "placeImage": "http://img.dummy-image-generator.com/maps/dummy-400x400-ModisMap.jpg",
-            "favRestraunt": "Restraunt 9",
-            "favBar": "Bar 9",
-            "favHotel": "Hotel 9",
-            "favAttr": "Attraction 9"
+            "placeName": "Snoqualmie Pass",
+            "placeState": "WA",
+            "placeImage": "../imgs/sno.jpg",
+            "favRestraunt": "Packed Lunch",
+            "favBar": "Lquor Store",
+            "favHotel": "The Woods",
+            "favAttr": "Snowboarding"
         },
         {
             "id": "place10",
-            "placeName": "place 10",
-            "placeState": "state 10",
-            "placeImage": "http://img.dummy-image-generator.com/maps/dummy-400x400-ModisMap.jpg",
-            "favRestraunt": "Restraunt 10",
-            "favBar": "Bar 10",
-            "favHotel": "Hotel 10",
-            "favAttr": "Attraction 10"
+            "placeName": "Scanton",
+            "placeState": "PA",
+            "placeImage": "../imgs/scranton.png",
+            "favRestraunt": "Chili's",
+            "favBar": "Poor Richard's Pub",
+            "favHotel": "Hotel Hell",
+            "favAttr": "The Steamtown Mall"
         }
     ]
 }
