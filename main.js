@@ -25,25 +25,25 @@ const domStringBuilder = (arrayToPrint) => {
     let domString = '';
     arrayToPrint.forEach((place) => {
         domString += `
-        <div class="card flex-md-row mb-4 shadow-sm h-md-250">
-            <div class="card-body d-flex flex-column align-items-start">
-               <div class="placeName">
-               <strong class="d-inline-block mb-2">${place.placeName}</strong>
-               <h6>${place.placeState}</h6>
-               </div>
-               <h6 class="mb-0 placeName">
-                  Favorite Places
-               </h6>
-               </br>
-               <ul>
-               <li>Favorite Restraunt:<br> ${place.favRestraunt}</li><br>
-               <li>Favorite Bar:<br> ${place.favBar}</li><br>
-               <li>Favorite Hotel:<br> ${place.favHotel}</li><br>
-               <li>Favorite Attraction:<br> ${place.favAttr}</li><br>
-               </ul>
+            <div class="cardContainer">
+
+            <header class="cardHeader">
+            <h1>${place.placeName}</h1>
+            <h3>${place.placeState}</h3>
+        </header>
+
+                <div class="cardContent">
+
+                    <ul class="cardFav">
+                        <li><h1>Favorite Restraunt:</h1> <p>- ${place.favRestraunt}</p></li>
+                        <li><h1>Favorite Bar:</h1> <p>- ${place.favBar}</p></li>
+                        <li><h1>Favorite Hotel:</h1> <p>- ${place.favHotel}</p></li>
+                        <li><h1>Favorite Attraction:</h1> <p>- ${place.favAttr}</p></li>
+                    </ul>
+
+                <img class="cardImg" alt="Image of ${place.placeName}" src="${place.placeImage}">
+                </div>
             </div>
-            <img class="card-img-right flex-auto d-none d-lg-block" alt="Thumbnail [200x250]" src="${place.placeImage}">
-         </div>
         `
     });
     printToDom('cardDiv', domString);
