@@ -7,6 +7,7 @@
   * The page was also required to be responsive for multiple devices.
   * The only thing CSS was used for is a background/text color change, and to add a small margin to the cards.
    * Here is a [link](https://github.com/nss-nightclass-projects/exercise-vault/blob/master/xhr_favorite_places.md) to the assignment.
+   * I picked places from my travels, and recycled some info from card to card due to me doing pretty much the same thing at every location I visit.
    
 ### Getting Started
 `$ git clone https://github.com/nss-evening-cohort-9/pie/`
