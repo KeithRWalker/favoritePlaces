@@ -24,27 +24,15 @@ function dataError() {
 const domStringBuilder = (arrayToPrint) => {
     let domString = '';
     arrayToPrint.forEach((place) => {
-        domString += `
-            <div class="cardContainer">
-
-            <header class="cardHeader">
-            <h1>${place.placeName}</h1>
-            <h3>${place.placeState}</h3>
-        </header>
-
-                <div class="cardContent">
-
-                    <ul class="cardFav">
-                        <li><h1>Favorite Restraunt:</h1> <p>- ${place.favRestraunt}</p></li>
-                        <li><h1>Favorite Bar:</h1> <p>- ${place.favBar}</p></li>
-                        <li><h1>Favorite Hotel:</h1> <p>- ${place.favHotel}</p></li>
-                        <li><h1>Favorite Attraction:</h1> <p>- ${place.favAttr}</p></li>
-                    </ul>
-
-                <img class="cardImg" alt="Image of ${place.placeName}" src="${place.placeImage}">
-                </div>
-            </div>
-        `
+        domString +=  `<div class="card text-center p-3 bg-transparent border">`;
+        domString +=    `<h2 class="card-title">${place.placeName}</h1>`;
+        domString +=    `<h2 class="card-text">${place.placeState}</h3>`;
+        domString +=    `<img class="card-img" alt="Image of ${place.placeName}" src="${place.placeImage}">`;
+        domString +=    `<p class="card-text"><h5>Favorite Restraunt:</h5> ${place.favRestraunt}</p>`;
+        domString +=    `<p class="card-text"><h5>Favorite Bar:</h5> ${place.favBar}</p>`;
+        domString +=    `<p class="card-text"><h5>Favorite Hotel:</h5> ${place.favHotel}</p>`;
+        domString +=    `<p class="card-text"><h5>Favorite Attraction:</h5> ${place.favAttr}</p>`;
+        domString +=  `</div>`;
     });
     printToDom('cardDiv', domString);
 };
